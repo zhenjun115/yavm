@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		946D3C4C22D471AE003C658E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 946D3C4B22D471AE003C658E /* AppDelegate.m */; };
+		946D3C4F22D471AE003C658E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946D3C4E22D471AE003C658E /* ViewController.m */; };
+		946D3C5222D471AE003C658E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946D3C5022D471AE003C658E /* Main.storyboard */; };
+		946D3C5522D471AE003C658E /* yavm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 946D3C5322D471AE003C658E /* yavm.xcdatamodeld */; };
+		946D3C5722D471AF003C658E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946D3C5622D471AF003C658E /* Assets.xcassets */; };
+		946D3C5A22D471AF003C658E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946D3C5822D471AF003C658E /* LaunchScreen.storyboard */; };
+		946D3C5D22D471AF003C658E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 946D3C5C22D471AF003C658E /* main.m */; };
+		946D3C6722D471AF003C658E /* yavmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 946D3C6622D471AF003C658E /* yavmTests.m */; };
+		946D3C7222D471AF003C658E /* yavmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 946D3C7122D471AF003C658E /* yavmUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		946D3C6322D471AF003C658E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946D3C3F22D471AE003C658E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 946D3C4622D471AE003C658E;
+			remoteInfo = yavm;
+		};
+		946D3C6E22D471AF003C658E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946D3C3F22D471AE003C658E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 946D3C4622D471AE003C658E;
+			remoteInfo = yavm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		946D3C4722D471AE003C658E /* yavm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yavm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		946D3C4A22D471AE003C658E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		946D3C4B22D471AE003C658E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		946D3C4D22D471AE003C658E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		946D3C4E22D471AE003C658E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		946D3C5122D471AE003C658E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		946D3C5422D471AE003C658E /* yavm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = yavm.xcdatamodel; sourceTree = "<group>"; };
+		946D3C5622D471AF003C658E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		946D3C5922D471AF003C658E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		946D3C5B22D471AF003C658E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946D3C5C22D471AF003C658E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		946D3C6222D471AF003C658E /* yavmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yavmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		946D3C6622D471AF003C658E /* yavmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yavmTests.m; sourceTree = "<group>"; };
+		946D3C6822D471AF003C658E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946D3C6D22D471AF003C658E /* yavmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yavmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		946D3C7122D471AF003C658E /* yavmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yavmUITests.m; sourceTree = "<group>"; };
+		946D3C7322D471AF003C658E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		946D3C4422D471AE003C658E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946D3C5F22D471AF003C658E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946D3C6A22D471AF003C658E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		946D3C3E22D471AE003C658E = {
+			isa = PBXGroup;
+			children = (
+				946D3C4922D471AE003C658E /* yavm */,
+				946D3C6522D471AF003C658E /* yavmTests */,
+				946D3C7022D471AF003C658E /* yavmUITests */,
+				946D3C4822D471AE003C658E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		946D3C4822D471AE003C658E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				946D3C4722D471AE003C658E /* yavm.app */,
+				946D3C6222D471AF003C658E /* yavmTests.xctest */,
+				946D3C6D22D471AF003C658E /* yavmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		946D3C4922D471AE003C658E /* yavm */ = {
+			isa = PBXGroup;
+			children = (
+				946D3C4A22D471AE003C658E /* AppDelegate.h */,
+				946D3C4B22D471AE003C658E /* AppDelegate.m */,
+				946D3C4D22D471AE003C658E /* ViewController.h */,
+				946D3C4E22D471AE003C658E /* ViewController.m */,
+				946D3C5022D471AE003C658E /* Main.storyboard */,
+				946D3C5622D471AF003C658E /* Assets.xcassets */,
+				946D3C5822D471AF003C658E /* LaunchScreen.storyboard */,
+				946D3C5B22D471AF003C658E /* Info.plist */,
+				946D3C5C22D471AF003C658E /* main.m */,
+				946D3C5322D471AE003C658E /* yavm.xcdatamodeld */,
+			);
+			path = yavm;
+			sourceTree = "<group>";
+		};
+		946D3C6522D471AF003C658E /* yavmTests */ = {
+			isa = PBXGroup;
+			children = (
+				946D3C6622D471AF003C658E /* yavmTests.m */,
+				946D3C6822D471AF003C658E /* Info.plist */,
+			);
+			path = yavmTests;
+			sourceTree = "<group>";
+		};
+		946D3C7022D471AF003C658E /* yavmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				946D3C7122D471AF003C658E /* yavmUITests.m */,
+				946D3C7322D471AF003C658E /* Info.plist */,
+			);
+			path = yavmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		946D3C4622D471AE003C658E /* yavm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946D3C7622D471AF003C658E /* Build configuration list for PBXNativeTarget "yavm" */;
+			buildPhases = (
+				946D3C4322D471AE003C658E /* Sources */,
+				946D3C4422D471AE003C658E /* Frameworks */,
+				946D3C4522D471AE003C658E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yavm;
+			productName = yavm;
+			productReference = 946D3C4722D471AE003C658E /* yavm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		946D3C6122D471AF003C658E /* yavmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946D3C7922D471AF003C658E /* Build configuration list for PBXNativeTarget "yavmTests" */;
+			buildPhases = (
+				946D3C5E22D471AF003C658E /* Sources */,
+				946D3C5F22D471AF003C658E /* Frameworks */,
+				946D3C6022D471AF003C658E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				946D3C6422D471AF003C658E /* PBXTargetDependency */,
+			);
+			name = yavmTests;
+			productName = yavmTests;
+			productReference = 946D3C6222D471AF003C658E /* yavmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		946D3C6C22D471AF003C658E /* yavmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946D3C7C22D471AF003C658E /* Build configuration list for PBXNativeTarget "yavmUITests" */;
+			buildPhases = (
+				946D3C6922D471AF003C658E /* Sources */,
+				946D3C6A22D471AF003C658E /* Frameworks */,
+				946D3C6B22D471AF003C658E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				946D3C6F22D471AF003C658E /* PBXTargetDependency */,
+			);
+			name = yavmUITests;
+			productName = yavmUITests;
+			productReference = 946D3C6D22D471AF003C658E /* yavmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		946D3C3F22D471AE003C658E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zhenjun;
+				TargetAttributes = {
+					946D3C4622D471AE003C658E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					946D3C6122D471AF003C658E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 946D3C4622D471AE003C658E;
+					};
+					946D3C6C22D471AF003C658E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 946D3C4622D471AE003C658E;
+					};
+				};
+			};
+			buildConfigurationList = 946D3C4222D471AE003C658E /* Build configuration list for PBXProject "yavm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 946D3C3E22D471AE003C658E;
+			productRefGroup = 946D3C4822D471AE003C658E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				946D3C4622D471AE003C658E /* yavm */,
+				946D3C6122D471AF003C658E /* yavmTests */,
+				946D3C6C22D471AF003C658E /* yavmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		946D3C4522D471AE003C658E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946D3C5A22D471AF003C658E /* LaunchScreen.storyboard in Resources */,
+				946D3C5722D471AF003C658E /* Assets.xcassets in Resources */,
+				946D3C5222D471AE003C658E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946D3C6022D471AF003C658E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946D3C6B22D471AF003C658E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		946D3C4322D471AE003C658E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946D3C5522D471AE003C658E /* yavm.xcdatamodeld in Sources */,
+				946D3C4F22D471AE003C658E /* ViewController.m in Sources */,
+				946D3C5D22D471AF003C658E /* main.m in Sources */,
+				946D3C4C22D471AE003C658E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946D3C5E22D471AF003C658E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946D3C6722D471AF003C658E /* yavmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946D3C6922D471AF003C658E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946D3C7222D471AF003C658E /* yavmUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		946D3C6422D471AF003C658E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 946D3C4622D471AE003C658E /* yavm */;
+			targetProxy = 946D3C6322D471AF003C658E /* PBXContainerItemProxy */;
+		};
+		946D3C6F22D471AF003C658E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 946D3C4622D471AE003C658E /* yavm */;
+			targetProxy = 946D3C6E22D471AF003C658E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		946D3C5022D471AE003C658E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946D3C5122D471AE003C658E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		946D3C5822D471AF003C658E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946D3C5922D471AF003C658E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		946D3C7422D471AF003C658E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		946D3C7522D471AF003C658E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		946D3C7722D471AF003C658E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZGZV92L27;
+				INFOPLIST_FILE = yavm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhenjun.yavm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		946D3C7822D471AF003C658E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZGZV92L27;
+				INFOPLIST_FILE = yavm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhenjun.yavm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		946D3C7A22D471AF003C658E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZGZV92L27;
+				INFOPLIST_FILE = yavmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhenjun.yavmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yavm.app/yavm";
+			};
+			name = Debug;
+		};
+		946D3C7B22D471AF003C658E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZGZV92L27;
+				INFOPLIST_FILE = yavmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhenjun.yavmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yavm.app/yavm";
+			};
+			name = Release;
+		};
+		946D3C7D22D471AF003C658E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZGZV92L27;
+				INFOPLIST_FILE = yavmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhenjun.yavmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yavm;
+			};
+			name = Debug;
+		};
+		946D3C7E22D471AF003C658E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZGZV92L27;
+				INFOPLIST_FILE = yavmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhenjun.yavmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yavm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		946D3C4222D471AE003C658E /* Build configuration list for PBXProject "yavm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946D3C7422D471AF003C658E /* Debug */,
+				946D3C7522D471AF003C658E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946D3C7622D471AF003C658E /* Build configuration list for PBXNativeTarget "yavm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946D3C7722D471AF003C658E /* Debug */,
+				946D3C7822D471AF003C658E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946D3C7922D471AF003C658E /* Build configuration list for PBXNativeTarget "yavmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946D3C7A22D471AF003C658E /* Debug */,
+				946D3C7B22D471AF003C658E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946D3C7C22D471AF003C658E /* Build configuration list for PBXNativeTarget "yavmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946D3C7D22D471AF003C658E /* Debug */,
+				946D3C7E22D471AF003C658E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		946D3C5322D471AE003C658E /* yavm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				946D3C5422D471AE003C658E /* yavm.xcdatamodel */,
+			);
+			currentVersion = 946D3C5422D471AE003C658E /* yavm.xcdatamodel */;
+			path = yavm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 946D3C3F22D471AE003C658E /* Project object */;
+}
